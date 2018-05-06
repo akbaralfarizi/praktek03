@@ -11,7 +11,29 @@ public class Sepeda {
                 "Harga \t: "+harga);
     }
 
-    void cetakinfo() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public string getMerk() {
+        return merk;
     }
+
+    public void setMerk(string merk) {
+        this.merk = merk;
+    }
+
+    public string getWarna() {
+        return warna;
+    }
+
+    public void setWarna(string warna) {
+        this.warna = warna;
+    }
+
+    public double getHarga() {
+        return harga;
+    }
+
+    public void setHarga(double harga) {
+        this.harga = harga;
+    }
+
+    
 }
