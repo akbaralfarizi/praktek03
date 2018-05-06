@@ -15,5 +15,15 @@ public class SepedaAksi {
         System.out.println(s.getWarna());
         System.out.print("Harganya \t: ");
         System.out.println(s.getHarga());
+        
+        SepedaMotor sm = new SepedaMotor();
+        sm.setMerk(hamaya);
+        sm.setWarna(Hitam);
+        sm.setHarga(10000);
+        sm.setJenisMotor(Listrik);
+        sm.cetakInfo();
+        System.out.println("Jenis \t:"+sm.getJenisMotor());
+        sm.throttle();
+        
     }
 }
